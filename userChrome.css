@@ -1,0 +1,17 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* only needed once */
+
+#urlbar {opacity: 0.8 !important; background-color: #000000 !important; color: white !important;}
+#urlbar:hover {opacity: 1 !important; background-color: #000000 !important; color: white !important;}
+#urlbar[focused="true"] {opacity: 1!important; background-color: #000000 !important; color: white !important;}
+
+#searchbar .searchbar-textbox {opacity: 0 !important; background-color: #000000 !important;}
+#searchbar .searchbar-textbox:hover {opacity: 0!important; background-color: #000000 !important;}
+#searchbar .searchbar-textbox[focused="true"] {opacity:0 !important; background-color: #000000 !important;}
+
+.tabbrowser-tabbox {
+  -moz-binding: url("chrome://browser/content/tabbrowser.xml#tabbrowser-tabbox");
+/*
+  background: Menu;
+  color: MenuText;
+ */
+}
